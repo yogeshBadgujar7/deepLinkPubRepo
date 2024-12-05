@@ -5,10 +5,10 @@
             {
                 "appID": "FTDD29YAQV.com.PGE.review",
                 "paths": [
-                    "/auth/quick-login",
+                    "/auth/*",
                     "/usage/*",
                     "/outages",
-                    "/billing",
+                    "/billing/*",
                     "/register/*"
                 ]
             }
