@@ -8,13 +8,15 @@
                     "value": "application/json"
                 }
             ]
-        }
-    ],
-    "redirects": [
+        },
         {
-            "source": "/",
-            "destination": "/.well-known/apple-app-site-association",
-            "permanent": false
+            "source": "/.well-known/assetlinks.json",
+            "headers": [
+                {
+                    "key": "Content-Type",
+                    "value": "application/json"
+                }
+            ]
         }
     ]
 }
