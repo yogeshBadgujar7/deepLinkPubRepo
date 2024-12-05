@@ -9,7 +9,8 @@
                     "/usage/*",
                     "/outages",
                     "/billing/*",
-                    "/register/*"
+                    "/register/*",
+                    "NOT /"
                 ]
             }
         ]
