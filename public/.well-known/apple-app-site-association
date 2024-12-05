@@ -5,7 +5,7 @@
             {
                 "appID": "FTDD29YAQV.com.PGE.review",
                 "paths": [
-                    "NOT /"
+                    "/*"
                 ]
             }
         ]
