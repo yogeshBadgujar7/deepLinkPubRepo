@@ -5,31 +5,10 @@
                 "appIDs": [
                     "FTDD29YAQV.com.PGE.review"
                 ],
-                "components": [
-                    {
-                        "/": "/"
-                    },
-                    {
-                        "/": "/auth/quick-login"
-                    },
-                    {
-                        "/": "/usage"
-                    },
-                    {
-                        "/": "/usage/"
-                    },
-                    {
-                        "/": "/outages"
-                    },
-                    {
-                        "/": "/outages/"
-                    },
-                    {
-                        "/": "/billing"
-                    },
-                    {
-                        "/": "/billing/"
-                    }
+                "paths": [
+                    "/",
+                    "/*",
+                    "!/deep-link-pub-repo.vercel.app"
                 ]
             }
         ]
