@@ -5,10 +5,42 @@
         ],
         "target": {
             "namespace": "android_app",
-            "package_name": "com.example.app",
+            "package_name": "com.connectivedx.pge",
             "sha256_cert_fingerprints": [
-                "12:34:56:78:9A:BC:DE:F0:12:34:56:78:9A:BC:DE:F0:12:34:56:78:9A:BC:DE:F0:12:34:56:78:9A:BC:DE:F0"
+                "52:71:1A:F8:9C:CE:2E:B0:0D:F5:A5:4D:8C:EC:2F:66:1D:2A:C1:55:C0:7D:A3:49:54:09:47:AF:72:50:66:20"
             ]
-        }
+        },
+        "path": [
+            "/",
+            "/auth/quick-login",
+            "/usage",
+            "/usage/",
+            "/outages",
+            "/outages/",
+            "/billing",
+            "/billing/"
+        ]
+    },
+    {
+        "relation": [
+            "delegate_permission/common.handle_all_urls"
+        ],
+        "target": {
+            "namespace": "android_app",
+            "package_name": "com.connectivedx.pge",
+            "sha256_cert_fingerprints": [
+                "FA:C6:17:45:DC:09:03:78:6F:B9:ED:E6:2A:96:2B:39:9F:73:48:F0:BB:6F:89:9B:83:32:66:75:91:03:3B:9C"
+            ]
+        },
+        "path": [
+            "/",
+            "/auth/quick-login",
+            "/usage",
+            "/usage/",
+            "/outages",
+            "/outages/",
+            "/billing",
+            "/billing/"
+        ]
     }
 ]

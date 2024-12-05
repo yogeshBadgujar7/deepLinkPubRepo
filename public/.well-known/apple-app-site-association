@@ -1,6 +1,37 @@
 {
-  "applinks": {
-    "apps": [],
-    "details": []
-  }
+    "applinks": {
+        "details": [
+            {
+                "appIDs": [
+                    "FTDD29YAQV.com.PGE.review"
+                ],
+                "components": [
+                    {
+                        "/": "/"
+                    },
+                    {
+                        "/": "/auth/quick-login"
+                    },
+                    {
+                        "/": "/usage"
+                    },
+                    {
+                        "/": "/usage/"
+                    },
+                    {
+                        "/": "/outages"
+                    },
+                    {
+                        "/": "/outages/"
+                    },
+                    {
+                        "/": "/billing"
+                    },
+                    {
+                        "/": "/billing/"
+                    }
+                ]
+            }
+        ]
+    }
 }
