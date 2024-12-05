@@ -1,10 +1,9 @@
 {
     "applinks": {
+        "apps": [],
         "details": [
             {
-                "appIDs": [
-                    "FTDD29YAQV.com.PGE.review"
-                ],
+                "appID": "FTDD29YAQV.com.PGE.review",
                 "paths": [
                     "/",
                     "/*",
