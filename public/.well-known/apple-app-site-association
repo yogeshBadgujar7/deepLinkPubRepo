@@ -6,8 +6,6 @@
                 "appID": "FTDD29YAQV.com.PGE.review",
                 "paths": [
                     "!/",
-                    "!/deep-link-pub-repo.vercel.app",
-                    "!/deep-link-pub-repo.vercel.app/*",
                     "/*"
                 ]
             }
