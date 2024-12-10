@@ -4,9 +4,12 @@
         "details": [
             {
                 "appID": "FTDD29YAQV.com.PGE.review",
-                "paths": [
-                    "/",
-                    "/*"
+                "components": [
+                    {
+                        "paths": [
+                            "/login/*"
+                        ]
+                    }
                 ]
             }
         ]
