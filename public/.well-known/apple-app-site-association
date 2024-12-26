@@ -1,14 +1,13 @@
 {
-    "applinks": {
-        "apps": [],
-        "details": [
-            {
-                "appID": "FTDD29YAQV.com.PGE.review",
-            "paths": [
-              "/outage",    // Allow this path to open the app
-              "NOT /"       // Exclude the root URL from opening the app
-            ]   
-            }
+  "applinks": {
+    "apps": [],
+    "details": [
+      {
+        "appID": "FTDD29YAQV.com.PGE.review",
+        "paths": [
+          "/outage"
         ]
-    }
+      }
+    ]
+  }
 }
