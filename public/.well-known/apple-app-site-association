@@ -4,13 +4,10 @@
         "details": [
             {
                 "appID": "FTDD29YAQV.com.PGE.review",
-                "components": [
-                    {
-                        "paths": [
-                             "*"
-                        ]
-                    }
-                ]
+            "paths": [
+              "/outage",    // Allow this path to open the app
+              "NOT /"       // Exclude the root URL from opening the app
+            ]   
             }
         ]
     }
