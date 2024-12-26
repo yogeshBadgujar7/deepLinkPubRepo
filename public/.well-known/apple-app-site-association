@@ -5,9 +5,6 @@
         "appIDs": ["FTDD29YAQV.com.PGE.review"],
         "components": [
           {
-            "/": "NOT *"
-          },
-          {
             "/": "/auth/quick-login"
           },
           {
