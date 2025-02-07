@@ -2,35 +2,19 @@
   "applinks": {
     "details": [
       {
-        "appIDs": ["FTDD29YAQV.com.PGE.review"],
+        "appIDs": ["FTDD29YAQV.com.portlandgeneral.csapp"],
         "components": [
-          {
-            "/": "/auth/quick-login"
-          },
-          {
-            "/": "/usage"
-          },
-          {
-            "/": "/usage/"
-          },
-          {
-            "/": "/outages"
-          },
-          {
-            "/": "/outages/"
-          },
-          {
-            "/": "/billing"
-          },
-          {
-            "/": "/billing/"
-          },
-          {
-            "/": "/register"
-          },
-          {
-            "/": "/register/"
-          }
+          { "/": "/", "exclude": true },  // Exclude root domain
+          { "/": "/home" },
+          { "/": "/auth/quick-login" },
+          { "/": "/usage" },
+          { "/": "/usage/" },
+          { "/": "/outages" },
+          { "/": "/outages/" },
+          { "/": "/billing" },
+          { "/": "/billing/" },
+          { "/": "/register" },
+          { "/": "/register/" }
         ]
       }
     ]
