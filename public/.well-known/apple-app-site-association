@@ -5,6 +5,7 @@
         "appIDs": ["FTDD29YAQV.com.portlandgeneral.csapp"],
         "components": [
           { "/": "/", "exclude": true },  // Exclude root domain
+          { "/" : "NOT /"},
           { "/": "/home" },
           { "/": "/auth/quick-login" },
           { "/": "/usage" },
